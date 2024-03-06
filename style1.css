@@ -30,6 +30,7 @@ html {
   height: 100vh;
   height: 100svh;
   background-color: #f4f5fa;
+  position: relative;
 }
 .header-image {
   display: block;
@@ -97,7 +98,7 @@ html {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 #steps-info {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 5rem;
   display: flex;
@@ -105,6 +106,8 @@ html {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  position: fixed;
+  bottom: 0px;
 }
 .button-container {
   display: flex;
