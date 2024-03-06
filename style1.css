@@ -1,0 +1,137 @@
+/* Reset default margin and padding */
+/* Default link styling */
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* --------- Default CSS --------- */
+:root {
+  --default-rem-size: 10px;
+}
+/* Now, redefine rem units based on the custom default */
+html {
+  font-size: var(
+    --default-rem-size
+  ); /* Set the root font size to the custom default size */
+}
+/* --------- Default CSS --------- */
+
+/* ------- Main CSS-------- */
+
+/* @media screen and (max-width: 599px) { */
+.container {
+  height: 100vh;
+  height: 100svh;
+  background-color: #f4f5fa;
+}
+.header-image {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.image-container2 {
+  width: 100%;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#img1 {
+  width: 100%;
+  height: 100px;
+}
+#img3 {
+  width: 40%;
+}
+#img2 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.svg-image {
+  width: 20px;
+  height: 20px;
+}
+.intro {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 4rem;
+}
+#user-name {
+  color: #6bc67c;
+}
+.height-weight {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#current-weight,
+#current-height {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: left;
+  padding: 1.5rem 3rem;
+}
+.weight-container {
+  width: 80%;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#steps-info {
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  transform: translate(calc(-50%), 0px);
+}
+.svg-container {
+  background-color: #000;
+  border-radius: 50%;
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.para {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: left;
+}
+#steps {
+  color: #000;
+  opacity: 0.5;
+}
+/* } */

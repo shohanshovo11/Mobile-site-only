@@ -1,0 +1,210 @@
+/* Reset default margin and padding */
+/* Default link styling */
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* --------- Default CSS --------- */
+:root {
+  --default-rem-size: 10px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  /* font-size: 1.6rem; */
+}
+/* Now, redefine rem units based on the custom default */
+html {
+  font-size: var(
+    --default-rem-size
+  ); /* Set the root font size to the custom default size */
+}
+/* --------- Default CSS --------- */
+
+/* ------- Main CSS-------- */
+
+/* @media screen and (max-width: 599px) { */
+.container {
+  background-color: #f4f5fa;
+  padding-bottom: 5.936rem;
+}
+#img1 {
+  width: 100%;
+}
+.image-container1 {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+}
+.image-container2 {
+  width: 100%;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#img2 {
+  width: 100%;
+  max-height: 30rem;
+  object-fit: contain;
+}
+.svg-container {
+  background-color: #000;
+  border-radius: 50%;
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+.navbar .home {
+  background-color: #6cc57c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 0.4rem 1.5rem;
+  gap: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.para {
+  font-weight: 700;
+}
+section {
+  padding: 1.6rem 1.5rem;
+}
+.nutrition-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0rem 1.6rem;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+.nutrition-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+}
+.nutrition-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background-color: #fff;
+  width: 100%;
+  padding: 1.6rem 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.nutrition-item-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.nutrition-ingredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.6rem 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.nutrition-ingredients-name {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  width: 7rem;
+  height: 7rem;
+}
+h4 {
+  text-align: center;
+}
+.nutrition-items-heading {
+  font-weight: 400;
+}
+.nutrition-item-count-details {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+#nutrition-item-count-details-1 {
+  color: #ee6a6e;
+}
+.para2 {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #000;
+  opacity: 0.6;
+}
+.para3 {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #000;
+  opacity: 0.6;
+}
+.para4 {
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: #000;
+}
+.para5 {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.header-image {
+  position: relative;
+}
+.arrow-svg {
+  background-color: #fff;
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: rgba(149, 157, 165, 0.8) 0px 8px 24px;
+  position: absolute;
+  top: 13rem;
+  left: 1.6rem;
+  cursor: pointer;
+}
+.wishlist-svg {
+  background-color: #fff;
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: rgba(149, 157, 165, 0.8) 0px 8px 24px;
+  position: absolute;
+  top: 13rem;
+  right: 1.6rem;
+  cursor: pointer;
+}
