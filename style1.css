@@ -29,6 +29,7 @@ html {
 .container {
   height: 100vh;
   height: 100svh;
+  width: 100%;
   background-color: #f4f5fa;
   position: relative;
 }
@@ -98,16 +99,16 @@ html {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 #steps-info {
-  width: 100%;
-  margin: auto;
-  margin-top: 5rem;
+  width: 80%;
   display: flex;
+  margin: 0 auto;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
-  position: fixed;
-  bottom: 0px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .button-container {
   display: flex;
